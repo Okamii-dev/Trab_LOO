@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class oi {
+public class ArrayList_Numeros {
     /*
      * (1,0) 2 – Crie uma lista com 20 números inteiros. Crie uma segunda lista,
      * retirando os números iguais e ordenando, em seguida, inverta a ordem dos
