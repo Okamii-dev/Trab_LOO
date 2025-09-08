@@ -3,7 +3,7 @@ package Trab_LOO_Parte1;
 import java.util.LinkedList;
 
 public class PilhaPaginas {
-    
+
     private LinkedList<Pagina> pilha;
 
     public PilhaPaginas() {
@@ -25,11 +25,11 @@ public class PilhaPaginas {
     public Pagina pop() {
         return this.pilha.removeFirst();
     }
-    
-    public LinkedList<Pagina> mostrarHistorico(){
+
+    public LinkedList<Pagina> mostrarHistorico() {
         LinkedList<Pagina> historico = new LinkedList<>();
-        
-        if(this.pilha.isEmpty()) {
+
+        if (this.pilha.isEmpty()) {
             return null;
         } else {
             while (!this.pilha.isEmpty()) {
